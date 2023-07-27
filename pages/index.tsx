@@ -2,10 +2,10 @@ import type { NextPage } from 'next'
 // import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
-import {Header} from '../stories/Header/Header'
-import { ProfileHeader } from '../stories/Profile/ProfileHeader/ProfileHeader'
-import { ProfileCard } from '../stories/Profile/ProfileCard/ProfileCard';
-import { ProfileInterest } from '../stories/Profile/ProfileInterest/ProfileInterest';
+import {Header} from './stories/Header/Header'
+import { ProfileHeader } from './stories/Profile/ProfileHeader/ProfileHeader'
+import { ProfileCard } from './stories/Profile/ProfileCard/ProfileCard';
+import { ProfileInterest } from './stories/Profile/ProfileInterest/ProfileInterest';
 import {useAuth} from '../context/AuthContext'
 
 const Home: React.FC = () => {

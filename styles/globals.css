@@ -2,10 +2,11 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import '../stories/Button/button.css';
-@import '../stories/Header/header.css';
-@import '../stories/Page/page.css';
-@import '../stories/Card/card.css';
+@import '../pages/stories/Button/button.css';
+@import '../pages/stories/Header/header.css';
+@import '../pages/stories/Page/page.css';
+@import '../pages/stories/Card/card.css';
+/* @import '../pages/stories/Button/button.css' */
 
 html,
 body {

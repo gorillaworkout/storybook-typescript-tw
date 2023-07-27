@@ -1,7 +1,9 @@
 import React from 'react';
 // import './button.css';
 import { InputField } from '../Input/InputField';
-import { useAuth } from "../../context/AuthContext";
+// import { AuthProvider } from "../../../context/AuthContext";
+
+import { useAuth } from "../../../context/AuthContext";
 import {useState} from 'react'
 interface FormProps {
   /**

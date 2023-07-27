@@ -1,9 +1,8 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa'
-import { Button } from '../Button/Button';
+// import {FaBars} from 'react-icons/fa'
 import Image from 'next/image';
 
-import gorillaworkout from '../../public/newbggw.png'
+import gorillaworkout from '../../../public/newbggw.png'
 type User = {
   name: string;
 };
@@ -33,21 +32,6 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
             <img src="https://d-shore.nl/wp-content/themes/d-shore/assets/images/menu_icon.svg" alt="" />
           </div>
       </div>
-      {/* <div>
-        {user ? (
-          <>
-            <span className="welcome">
-              Welcome, <b>{user.name}</b>!
-            </span>
-            <Button size="small" onClick={onLogout} label="Log out" />
-          </>
-        ) : (
-          <>
-            <Button size="small" onClick={onLogin} label="Log in" />
-            <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
-          </>
-        )}
-      </div> */}
     </div>
   </header>
 );

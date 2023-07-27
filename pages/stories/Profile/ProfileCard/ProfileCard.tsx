@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { useAuth } from "../../../context/AuthContext";
+import { useAuth } from "../../../../context/AuthContext";
 import { GrEdit } from "react-icons/gr";
 import { Form } from "../../Form/Form";
 interface IDataUser {
